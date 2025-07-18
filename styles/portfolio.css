@@ -177,10 +177,6 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 
 /* Responsive media query */
-.hide{
-    display: none;
-}
-
 @media screen and (max-width: 576px) {
     .skills-container, 
     .resume-container,
@@ -222,7 +218,4 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     .banner{
         flex-direction: column;
     }
-    /* .skills-container{
-        flex-direction: column;
-    } */
 }
